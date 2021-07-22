@@ -199,6 +199,16 @@ body{
 		font-size: 12px;
 	}	
 }
+@media screen and (max-width: 512px) {
+	
+	.try-free,
+	.watch-video,
+	.free-demo,
+	.get-started{
+		padding: 7px 10px;
+		font-size: 12px;
+	}	
+}
 
 .banner-img{
 	background-color: #226679;
@@ -554,13 +564,16 @@ body{
 	}
 }
 @media screen and (max-width: 400px){
-	.hiring-process{
-		padding: 70px 50px;
-	}
+
 	.hiring-process p{
 		width: 80%;
 		padding: 15px 0;
 		font-size: 15px;
+	}
+}
+@media screen and (max-width: 300px){
+	.hiring-process{
+		padding: 70px 30px;
 	}
 }
 
